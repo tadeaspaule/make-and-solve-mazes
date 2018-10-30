@@ -5,7 +5,8 @@ The maze is surrounded by a 1-pixel-wide layer of black pixels (the outer walls)
 You can pass it size parameters ('maze_maker.py 300 100' creates a 300x100 maze, 'maze_maker.py 200' creates a 200x200 maze)<br>
 Or you can just run 'maze_maker.py' and it will use a default value (400x400, though you can change that in the code)
 <br><br>
-In a nutshell, maze_maker first makes the main path from entrance to exit to ensure the maze is solveable. It does this by 'moving' an x-and-y position through the maze by randomly picked movement until it gets to the exit. If it gets stuck and can't move anywhere, it retraces its steps and starts over from that spot, but leaves the path it took 'white' (labeled as a walkway), so some branching paths are already created.<br>
+In a nutshell, maze_maker first makes the main path from entrance to exit to ensure the maze is solveable.<br>
+It does this by 'moving' an x-and-y position through the maze by randomly picked movement until it gets to the exit. If it gets stuck and can't move anywhere, it retraces its steps and starts over from that spot, but leaves the path it took 'white' (labeled as a walkway), so some branching paths are already created.<br>
 Then it fills the remaining empty space by branching paths, and lastly it fills any remaining small holes by short corridors and gets rid of unnecessary walkway tiles (for example, there is no point in there being a 3x3 all white square)
 
 <br>
