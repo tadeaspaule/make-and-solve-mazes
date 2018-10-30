@@ -3,7 +3,7 @@ import time, sys,random
 from collections import deque
 
 # -------------------------------------- Getting a reference to the maze image ----------------------------------------------------------------------------
-DEFAULT_IMAGE_PATH = "3x100_0.png"
+DEFAULT_IMAGE_PATH = "400x400_0.png"
 # Modify the above constant if you're playing around with the script
 # and can't be bothered with using the terminal every time :)
 if len(sys.argv) > 1:
