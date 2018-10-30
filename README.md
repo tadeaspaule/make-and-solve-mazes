@@ -1,5 +1,5 @@
 # make-and-solve-mazes
-<b>maze_maker.py</b>
+<b>maze_maker.py</b><br>
 Generates a maze in the form of a black-and-white PNG image, with black being walls and white being walkways<br>
 You can pass it size parameters ('maze_maker.py 300 100' creates a 300x100 maze, 'maze_maker.py 200' creates a 200x200 maze)<br>
 Or you can just run 'maze_maker.py' and it will use a default value (400x400, though you can change that in the code)
@@ -8,7 +8,7 @@ In a nutshell, maze_maker first makes the main path from entrance to exit to ens
 
 <br>
 <br>
-<b>maze_solver.py</b>
+<b>maze_solver.py</b><br>
 Solves a maze that's in a format like maze_maker makes, by converting the maze to a graph and using A* to search for the shortest path<br>
 You can pass it a filename parameter ('maze_solver.py 600x600_0.png' or 'maze_solver.py 600x600_0')<br>
 Or you can set a default filename and run it as-is.
