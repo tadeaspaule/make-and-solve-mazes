@@ -1,6 +1,7 @@
 # make-and-solve-mazes
 <b>maze_maker.py</b><br>
 Generates a maze in the form of a black-and-white PNG image, with black being walls and white being walkways<br>
+The maze is surrounded by a 1-pixel-wide layer of black pixels (the outer walls), except for the entrance at the top and exit at the bottom<br>
 You can pass it size parameters ('maze_maker.py 300 100' creates a 300x100 maze, 'maze_maker.py 200' creates a 200x200 maze)<br>
 Or you can just run 'maze_maker.py' and it will use a default value (400x400, though you can change that in the code)
 <br><br>
