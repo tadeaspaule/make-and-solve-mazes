@@ -21,8 +21,9 @@ Solves a maze that's in a format like maze_maker makes, by converting the maze t
 Passing filename parameters:
 
 ```bash
-maze_solver_.py 400x400_0.png
+maze_solver_.py 300x100_2.png
 ```
+If you don't provide a filename, it tries to open 400x400_0.png by default. You can change this default in the script
 
 ### Solving process
 
